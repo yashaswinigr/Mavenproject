@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <test thread-count="5" name="test_firefox(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="property.Parallel">
+        <methods>
+          <include name="launch" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- property.Parallel -->
+    </classes>
+  </test> <!-- test_firefox(failed) -->
+</suite> <!-- Failed suite [Suite] -->

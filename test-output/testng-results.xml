@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="70268" started-at="2019-12-21T10:37:32Z" finished-at="2019-12-21T10:38:42Z">
+    <groups>
+    </groups>
+    <test name="test_chrome" duration-ms="16827" started-at="2019-12-21T10:37:32Z" finished-at="2019-12-21T10:37:49Z">
+      <class name="property.Parallel">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:property.Parallel@8646db9]" name="launch" duration-ms="16808" started-at="2019-12-21T10:37:32Z" finished-at="2019-12-21T10:37:49Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- property.Parallel -->
+    </test> <!-- test_chrome -->
+    <test name="test_firefox" duration-ms="70268" started-at="2019-12-21T10:37:32Z" finished-at="2019-12-21T10:38:42Z">
+      <class name="property.Parallel">
+        <test-method status="PASS" signature="launch(java.lang.String)[pri:0, instance:property.Parallel@12cdcf4]" name="launch" duration-ms="70252" started-at="2019-12-21T10:37:32Z" finished-at="2019-12-21T10:38:42Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launch -->
+      </class> <!-- property.Parallel -->
+    </test> <!-- test_firefox -->
+  </suite> <!-- Suite -->
+</testng-results>
